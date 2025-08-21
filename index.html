@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Quiz</a>
+
+        <nav class="navbar">
+          <a href="index.html" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Quiz.</h1>
+            <div class="quiz-header">
+              <span>My Quiz Website</span>
+              <span class="header-score">Score : 0 / 10</span>
+            </div>
+
+            <h2 class="question-text">What does HTML stand for ?</h2>
+            <div class="option-list">
+              <!-- <div class="option">
+                <span>A. Hyper Type Markup Language</span>
+              </div>
+              <div class="option">
+                <span>B. Hyper Text Markup Language</span>
+              </div>
+              <div class="option">
+                <span>C. Hyper Text Multiple Language</span>
+              </div>
+              <div class="option">
+                <span>D. Home Text Multi Language</span>
+              </div> -->
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total">1 of 10 questions</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+
+          <div class="result-box">
+            <h2>Quiz Result</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+
+              <span class="score-text">Your Score 0 out of 10</span>
+            </div>
+
+            <div class="buttons">
+              <button class="tryAgain-btn">Try Again</button>
+              <button class="goHome-btn">Go To Home</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home">
+          <div class="home-content">
+            <h1>Welcome to the Quiz</h1>
+            <p>
+              Test your knowledge with our fun and interactive quizzes! <br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consectetur alias sequi tenetur dolorum nam asperiores obcaecati
+              architecto et magni quaerat nobis a dolor non vitae, assumenda
+              accusamus praesentium nesciunt incidunt!
+            </p>
+            <button href="#" class="start-btn">Start Quiz</button>
+          </div>
+        </section>
+        <section class="subject-section">
+          <div class="subject-content">
+            <h1>Select a Subject</h1>
+            <div class="subject-cards">
+              <div class="subject-card" data-subject="html">
+                <h2>HTML</h2>
+                <p>Test your HTML knowledge!</p>
+              </div>
+              <div class="subject-card" data-subject="css">
+                <h2>CSS</h2>
+                <p>How well do you know CSS?</p>
+              </div>
+              <div class="subject-card" data-subject="js">
+                <h2>JavaScript</h2>
+                <p>Challenge your JS skills!</p>
+              </div>
+              <div class="hr"></div>
+              <div class="subject-card" data-subject="java">
+                <h2>Frontend Development</h2>
+                <p>Final Test!</p>
+              </div>
+              <div class="subject-card" data-subject="java">
+                <h2>Java</h2>
+                <p>Decode the power of Java!</p>
+              </div>
+              <div class="subject-card" data-subject="python">
+                <h2>Python</h2>
+                <p>Slay the snake with your skills!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="popup-info">
+      <h2>Quiz Instructions</h2>
+      <span class="info">1. Read each question carefully.</span>
+      <span class="info"
+        >2. Choose the correct answer from the options provided.</span
+      >
+      <span class="info"
+        >3. You can review your answers before submitting.</span
+      >
+      <span class="info">4. Click the "Submit" button to finish the quiz.</span>
+      <span class="info">5. Your score will be displayed at the end.</span>
+      <span class="info">6. Have fun and good luck!</span>
+
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit</button>
+        <a href="#" class="info-btn continue-btn">Continue</a>
+      </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
